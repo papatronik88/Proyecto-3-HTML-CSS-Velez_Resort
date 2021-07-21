@@ -1,0 +1,126 @@
+body { background-color: #fa8072;
+       background-image: linear-gradient(to bottom, #FFFFFF, #fa8072);
+       background-repeat: no-repeat; 
+       color: #666666;
+	   font-family: Verdana, Arial, sans-serif;
+}
+form {width: 450px;
+     margin: auto;
+     background:linear-gradient(to bottom,#75d1c9 , #fa8072);
+     padding: 10px 20px;
+     box-sizing: border-box;
+     margin-top: 20px;
+     border-radius: 7px; 
+}
+h4 { color:#faf6f6;
+     font-family: Georgia,serif;
+     font-style: italic;
+     text-align: center;
+     margin: 0;
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+input,textarea { 
+     width: 100%;
+     margin-bottom: 30px;
+     padding: 10px;
+     box-sizing: border-box;
+     font-size: 17px;
+     font-style: italic;
+     border: none;   
+}
+textarea {  
+     min-height: 100px;
+     max-height: 200px;
+     max-width: 500px;
+}
+#button{  
+     background:#75d1c9 ;
+     padding: 20px;
+     color: #FFFFFF;
+}
+#button:hover{ 
+     cursor: pointer;
+}
+#wrapper { 
+     background-color: #FFFFFF;
+     margin-left: auto;
+     margin-right: auto;
+	 width: 80%;
+	min-width: 960px;
+	 max-width: 2048px;
+	box-shadow: 3px 3px 3px grey;
+}
+header { 
+     background-color: #75d1c9;
+     background-image: url(playa.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+     color: #FFFFFF;
+	font-family: Helvetica, sans-serif;
+     font-style: italic;
+	height: 72px;
+}
+h1 { text-align: center;
+     padding-top: .5em;
+     font-family: cursive;
+     font-style: italic; 
+}
+h2 { color: #1976D2;
+     font-family: Georgia, serif;
+     font-style: italic;
+}
+h3 { font-family: Georgia, serif; }
+nav { 
+     font-weight: bold; 
+	  padding-top: .5em;
+	  padding-right: .5em;
+	  padding-bottom: .5em;
+	  text-align: center;
+}
+nav a { color: #1976d2;}
+main { padding-left: 2em;
+       padding-right: 2em;
+       display: block; }
+dt { color: #002171;
+     font-weight: bold;
+}
+.resort { color: #1976D2;
+          font-size: 1.2em;
+}
+#homehero { 
+     height: 300px;
+      background-image: url(Casitas.jpg);
+  	background-repeat: no-repeat;
+     background-size: 100% 100%; }
+
+#Cabañahero { 
+     height: 300px;
+     background-image: url(Cabañas.jpg);
+  	background-repeat: no-repeat;
+     background-size: 100% 100%; 
+}
+#Facilhero { 
+     height: 300px;
+      background-image: url(Facilidades.jpg);
+  	background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }           
+#Resthero  { 
+     height: 300px ;
+     background-image: url(restaurant.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%; }
+#Resthero2 { 
+     height: 250px;
+     width: 600px;
+     background-image: url(rest2.jpg);
+     background-repeat: no-repeat;
+      background-size: 100% 100%;
+      }
+footer { 
+     font-size: .70em;
+     font-style: italic;
+	text-align: center;
+	padding: 1em;
+}
